@@ -1,7 +1,7 @@
 
 import Connection from "../models/connection.model.js"
 import User from "../models/user.model.js"
-import {io,userSocketMap} from "../index.js"
+import { io, userSocketMap } from "../socket.js";
 import Notification from "../models/notification.model.js"
 export const sendConnection= async (req,res)=>{
     try {
